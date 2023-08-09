@@ -176,9 +176,9 @@ main {
 }
 
 .skill-description {
-    color:#757575;
+    color: #757575;
     font-size: 16px;
-    font-weight: 400; 
+    font-weight: 400;
 }
 
 /* resume column stylez */
@@ -214,14 +214,38 @@ main {
     margin: 30px;
 }
 
-.download-cv{
+.download-cv {
     text-align: center;
     margin-top: 50px;
 }
+
 /* footer style */
-footer{
+footer {
     display: flex;
+    gap: 100px;
     background: #FFF8F3;
     padding: 130px 200px;
     margin-top: 130px;
 }
+
+.footer-column {
+    width: 50%;
+}
+
+.social-links a{
+     margin-left: 24px ;
+}
+
+.contact input[type="text"], .contact input[type="email"],  
+textarea {
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+
+}
+
